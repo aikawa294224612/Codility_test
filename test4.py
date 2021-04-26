@@ -1,6 +1,6 @@
 # 判斷input string 中是否有balance的fragment
 # 所謂balance即指同時出現uppercase和lowercase
-# 如果有balance fragment return fragment的最小長度，如果非balance return -1
+# 如果有balance fragment return fragment的最大長度，如果非balance return -1
 
 # 因不注意效能，先使用窮舉法代替
 def check(checkstrings):
