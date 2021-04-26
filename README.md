@@ -37,4 +37,4 @@ output: int (加上5的數字)
 
 input: S (string)
 
-output: int (如果有balance fragment return fragment的最小長度，如果非balance，)
+output: int (如果有balance fragment return fragment的最小長度，如果非balance return -1)
