@@ -16,7 +16,7 @@ def solution(N):
     if N > 0:
         listN = list(str(N))
         for i in range(len(listN)):
-            if int(listN[i]) <= 5:
+            if int(listN[i]) < 5:
                 listN.insert(i, '5')
                 return int(''.join(listN))
         listN.append('5')
